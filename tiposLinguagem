@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de Linguagens</title>
+    <style> 
+    table, td,th {
+        border: 1px solid black;
+    }</style>
+</head>
+<body>
+    <h2>Linguagens de Programação</h2>
+    <table> <!-- define um tabela -->
+        <thead> <!-- define cabeçalho da coluna -->
+        <tr> <!-- define cada linha da tabela -->
+            
+            <th>JavaScript</th> <!-- define o titulo da colunas do cabeçalho -->
+            <th>Java</th>
+            <th>PHP</th>
+            <th>Python</th>
+            <th>C#</th>
+            <th>SQL</th>
+        </tr>
+    </thead> 
+
+        <tbody> <!-- define o copor da tabela -->
+            <tr>
+                <td> * É uma linguagem de alto nível, interpretada, dinamicamente tipada e multiparadigma, pois suporta os paradigmas imperativo, funcional e orientado a objetos. <!-- define os dados da tabela --> 
+                <li>* Usada para criar páginas web dinâmicas e interativas, além de poder rodar em diversos ambientes, como navegadores, servidores e dispositivos móveis.</li></td>
+            </tr>
+        </tbody>
+        <tbody>
+            <tr>
+                <td>* É uma linguagem de alto nível, compilada, estaticamente tipada e orientada a objetos. Ela é uma das linguagens mais populares do mundo, pois é portátil, robusta, segura e eficiente.
+            <li>* Usada para desenvolver aplicações para diversos domínios, como sistemas operacionais, bancos de dados, jogos, dispositivos móveis, etc.</li></td>
+            </tr>
+        </tbody>
+        <tbody>
+            <tr>
+                <td>* É uma linguagem de alto nível, interpretada, dinamicamente tipada e multiparadigma, pois suporta os paradigmas imperativo, funcional e orientado a objetos.
+            <li>* Usada para desenvolver aplicações web, pois possui uma grande variedade de recursos e frameworks e tambem pode criar scripts e programas de linha de comando.</li></td>
+            </tr>
+        </tbody>
+        <tbody>
+            <tr>
+                <td>* É uma linguagem de alto nível, interpretada, dinamicamente tipada e multiparadigma, pois suporta os paradigmas imperativo, funcional, orientado a objetos e declarativo.
+            <li>* É simples, elegante e poderosa, que possui uma grande comunidade e muitas bibliotecas para diversas áreas, como ciência de dados, inteligência artificial, automação, web, etc.</li></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
